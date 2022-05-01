@@ -15,7 +15,6 @@ img {
 
 .info {
     max-width: 300px;
-
 }
 
 .info > h1 {
@@ -39,6 +38,25 @@ img {
 
 .info > button:hover {
     background: #c2d9ebdd;
-    
+}
 
+/* Styling for mobile */
+
+@media (max-width:420px) {
+    main {
+        padding: 0 20px;
+        gap: 30px;
+    }
+
+    img {
+        height: 300px;
+    }
+
+    .info > h1 {
+        font-size: 24px;
+    }
+
+    .info > p {
+        font-size: 14px;
+    }     
 }
