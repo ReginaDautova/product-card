@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;1,400&display=swap');
+
+main {
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    align-items: center;
+    gap: 120px;
+    font-family: 'Nunito', sans-serif;
+}
+
+img {
+    height: 400px;
+}
+
+.info {
+    max-width: 300px;
+
+}
+
+.info > h1 {
+    font-family: 'Nunito', sans-serif;
+}
+
+.info > .price {
+    font-style: italic;
+}
+
+.info > button {
+    padding: 5px 20px;
+    background: #b7d5ef;
+    color: #051429;
+    border: unset;
+    border-radius: 5px;
+    transition: all .5s; 
+    cursor: pointer;
+    font-family: 'Nunito', sans-serif;
+}
+
+.info > button:hover {
+    background: #c2d9ebdd;
+    
+
+}
